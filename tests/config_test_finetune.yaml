@@ -1,0 +1,11 @@
+# Mode
+mode: "Finetune"
+
+# Directories
+model_dir: "../examples/output/test/best_model/"
+train_file: "../examples/data/example_fintunetrain.h5ad"
+val_file: "../examples/data/example_fintuneval.h5ad"
+target_feature: "ct"
+num_epochs: 2
+finetune_dir: "../examples/output/test2/"
+

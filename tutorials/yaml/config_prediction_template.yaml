@@ -1,0 +1,9 @@
+# Mode
+mode: "Predict"
+
+predict_file: "/home/ubuntu/scgenai/examples/data/example_val.h5ad"
+batch_size: 1 # set this based on GPU memory, higher batch_size higher training speed, but also much more GPU memory will be used
+model_dir: "/home/ubuntu/scgenai/examples/testrun/test1/best_model/" # Path to the pretrained model
+outputfile: "/home/ubuntu/scgenai/examples/testrun/test1/test.Predict.csv"
+
+
