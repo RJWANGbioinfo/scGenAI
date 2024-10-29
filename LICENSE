@@ -1,37 +1,44 @@
-# License for scGenAI
+LICENSE FOR SCGENAI
 
-**Version 1.0.0**
+VERSION 1.0.0
 
-This license governs the use of the **scGenAI** software package (hereinafter referred to as the Software). By using this Software, you agree to be bound by the terms and conditions described below.
+This license governs the use of the SCGENAI software package (hereinafter referred to as the Software).
+By using this Software, you agree to be bound by the terms and conditions described below.
 
-## Permitted Uses
 
-The Software is **only available for non-commercial use** by:
+PERMITTED USES
 
-- Individuals.
-- Non-commercial organizations, including but not limited to:
-  - Universities.
-  - Non-profit organizations and research institutes.
-  - Educational bodies.
-  - Government agencies.
-  - Journalists, in the course of their professional duties.
+The Software is ONLY AVAILABLE FOR NON-COMMERCIAL USE by:
+
+  - Individuals.
+  - Non-commercial organizations, including but not limited to:
+      - Universities.
+      - Non-profit organizations and research institutes.
+      - Educational bodies.
+      - Government agencies.
+      - Journalists, in the course of their professional duties.
 
 The Software may be used for research, educational purposes, and journalism under these restrictions.
 
-## Restricted Uses
 
-The following uses of the Software are **strictly prohibited** without prior written consent from **Vor's Computational Biology Team** at **Vor Biopharma**:
+RESTRICTED USES
 
-- **Commercial Activities**: Any use of the Software in connection with commercial activities, including research conducted on behalf of commercial organizations, is prohibited.
-- **Automated Systems**: The Software may not be used in any automated system for analyzing single-cell data.
-- **Machine Learning Models**: The Software may not be used to train machine learning models or related technology for the analysis of single-cell data.
+The following uses of the Software are STRICTLY PROHIBITED without prior written consent from Vor's Computational Biology Team at Vor Biopharma:
 
-## Contact for Restricted Usage
+  - COMMERCIAL ACTIVITIES: Any use of the Software in connection with commercial activities,
+    including research conducted on behalf of commercial organizations, is prohibited.
+  - AUTOMATED SYSTEMS: The Software may not be used in any automated system for analyzing single-cell data.
+  - MACHINE LEARNING MODELS: The Software may not be used to train machine learning models or related technology
+    for the analysis of single-cell data.
 
-For any of the restricted uses mentioned above, written consent must be obtained by contacting **Vor's Computational Biology Team** via the following email:
-- **help.qbio@vorbio.com**
 
-## Liability
+CONTACT FOR RESTRICTED USAGE
+
+For any of the restricted uses mentioned above, written consent must be obtained by contacting Vor's Computational Biology Team via the following email:
+
+  - help.qbio@vorbio.com
+
+
+LIABILITY
 
 The Software is provided "as-is," and the authors make no warranties or representations regarding its functionality or fitness for any particular purpose.
-
