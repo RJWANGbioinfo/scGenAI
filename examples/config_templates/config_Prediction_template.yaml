@@ -1,9 +1,0 @@
-# Mode
-mode: "Predict"
-
-predict_file: "/path_to_your_predfile/pred.h5ad"
-batch_size: 1 # set this based on GPU memory, higher batch_size higher training speed, but also much more GPU memory will be used
-model_dir: "/path_to_your_trained_model_dir/best_model/" # Path to the pretrained model
-outputfile: "/path_to_your_output_dir/output.Predict.csv"
-
-

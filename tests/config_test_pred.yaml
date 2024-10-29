@@ -1,9 +1,0 @@
-# Mode
-mode: "Predict"
-predict_file: "../examples/data/example_val.h5ad"
-batch_size: 1
-model_dir: "../examples/output/test/best_model/"
-outputfile: "../examples/output/test/test.Predict.csv"
-
-
-
