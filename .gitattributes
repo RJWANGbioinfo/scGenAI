@@ -1,1 +1,5 @@
-*.ipynb filter=strip-notebook-output
+# Jupyter notebook
+
+
+# To ignore it use below
+*.ipynb linguist-documentation
