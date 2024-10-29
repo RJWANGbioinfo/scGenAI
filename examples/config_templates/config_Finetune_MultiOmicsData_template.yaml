@@ -1,0 +1,26 @@
+# Mode
+mode: "Finetune"
+
+# Directories
+cache_dir: "/path_to_your_cache_dir/cache" ## cache dir to save the model template files
+model_dir: "/path_to_your_output_model_dir/best_model/" ## pretrained model dir
+finetune_dir: "/path_to_your_output_model_dir/" ## output fine-tune model dir
+log_dir: "/path_to_your_log_dir/logs/"
+
+#### Input data files ####
+train_file: "/path_to_your_finetune_trainfile/finetune_train.h5ad"
+val_file: "/path_to_your_finetune_valfile/finetune_val.h5ad"   ## Optiona
+train_ADTfile: "/path_to_your_finetune_trained_ADT_file/finetune_train_ADT.h5ad"
+val_ADTfile: "/path_to_your_finetune_val_ADT_file/finetune_val_ADT.h5ad"  ## Optiona
+
+
+########################################### General setting ####################################################
+savelog: "Yes"
+target_feature: "celltype.l2"  # Target name for prediction
+
+########## Model template and context method setting #########
+multiomics: "Yes"  # Trigger the multiomics method when set to Yes
+
+########################################### Other settings ####################################################
+num_epochs: 20  # suggest 15-30
+

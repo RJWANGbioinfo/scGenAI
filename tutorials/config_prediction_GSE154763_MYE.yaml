@@ -1,0 +1,9 @@
+# Mode
+mode: "Predict"
+
+predict_file: "/home/ubuntu/fulldataset/GSE154763_MYE.val.h5ad"
+batch_size: 1 # set this based on GPU memory, higher batch_size higher training speed, but also much more GPU memory will be used
+model_dir: "/home/ubuntu/fulldataset/model/GSE154763_MYE_genomic_context/best_model/" # Path to the pretrained model
+outputfile: "/home/ubuntu/fulldataset/model/GSE154763_MYE_genomic_context/test.Predict.csv"
+
+

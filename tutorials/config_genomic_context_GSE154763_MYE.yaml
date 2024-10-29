@@ -1,0 +1,31 @@
+# Mode
+mode: "Train"
+
+# Directories
+cache_dir: "/home/ubuntu/scgenai/examples/tmp/cache" ## cache dir to save the model template files
+model_dir: "/home/ubuntu/fulldataset/model/GSE154763_MYE_genomic_context/" ## output model dir
+log_dir: "/home/ubuntu/fulldataset/logs/"
+
+#### Input data files 40 cells toy data ####
+train_file: "/home/ubuntu/fulldataset/GSE154763_MYE.train.h5ad"
+val_file: "/home/ubuntu/fulldataset/GSE154763_MYE.val.h5ad" ## Optional 
+cytofile: "/home/ubuntu/scgenai/examples/data/GeneSymbol.CytoBand.hg38.tsv"
+
+########################################### General setting ####################################################
+savelog: "Yes"
+target_feature: "ct"  # Target name for prediction
+num_bins: 10  # Bins for gene expression discretization
+
+########## Model template and context method setting #########
+model_backbone_name: "llama" ### "llama", "gpt", "bigbird", "scgent"
+model_backbone_size: "small" ### "small", "normal", "large". Suggest "small" for llama
+max_length: 1024 
+context_method: "genomic"
+depth: 2 # suggest 2
+
+########################################### Other settings ####################################################
+min_cells: 50  # suggest 50
+batch_size: 1 # set this based on GPU memory, higher batch_size higher training speed, but also much more GPU memory will be used
+learning_rate: 1e-5  # suggest 1e-5
+num_epochs: 30  # suggest 30
+
