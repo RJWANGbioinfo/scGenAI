@@ -1,0 +1,12 @@
+# Mode
+mode: "Predict"
+
+predict_file: "/home/ubuntu/fulldataset/pbmc_multimodal_2023.RNA_val.h5ad"
+predict_ADTfile: "/home/ubuntu/fulldataset/pbmc_multimodal_2023.ADT_val.h5ad"
+multiomics: "Yes" 
+
+batch_size: 1 # set this based on GPU memory, higher batch_size higher training speed, but also much more GPU memory will be used
+model_dir: "/home/ubuntu/fulldataset/model/pbmc_citeseq/best_model/" # Path to the pretrained model
+outputfile: "/home/ubuntu/fulldataset/model/pbmc_citeseq/test.Predict.csv"
+
+
