@@ -4,7 +4,7 @@
 
 ##### Author: Ruijia Wang
 ##### Date: 2024-10-14
-##### Version: 0.1.0
+##### Version: 1.0.0
 
 <p align="center">
   <img src="img/logoedge.png" alt="scGenAI Logo" />
@@ -70,9 +70,9 @@ Once installed, `scGenAI` can be accessed through either (1) python IDE or noteb
 
 ### Option 1. Use scGenAI through notebook or python script
 
-As a quick start, we highly recommend users to begin with the following [tutorials](./tutorials/) and [config template files](./examples/config_templates/) according to the training/prediction purposes:
+As a quick start, we highly recommend users to begin with the following [tutorials](./tutorials/) using a testing size of data (40 cells) and [config template files](./examples/config_templates/) according to the training/prediction purposes:
 
-| Project                          | Tutorial                                 | Training/Finetune Config Template                                                                                                     | Prediction Config Template                                                                 |
+| Testing Case                          | Tutorial                                 | Training/Finetune Config Template                                                                                                     | Prediction Config Template                                                                 |
 |-----------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | Modeling healthy cell type        | [TrainData_genelist](./tutorials/TrainData_genelist.ipynb)                                 | [config_Train_genelist](./examples/config_templates/config_Train_genelist_template_llama.yaml)                   | [config_Prediction](./examples/config_templates/config_Prediction_template.yaml) |
 | Modeling disease/cancer cell type | [TrainData_biofounction_context](./tutorials/TrainData_biofounction_context.ipynb)         | [config_Train_biofounction_context](./examples/config_templates/config_Train_biofounction_context_template_llama.yaml) or [config_Train_random_context](./examples/config_templates/config_Train_random_context_template_llama.yaml) | [config_Prediction](./examples/config_templates/config_Prediction_template.yaml) |
@@ -80,6 +80,15 @@ As a quick start, we highly recommend users to begin with the following [tutoria
 | Modeling using multiomics data    | [TrainData_MultiOmics](./tutorials/TrainData_MultiOmics.ipynb)                             | [config_Train_MultiOmicsData](./examples/config_templates/config_Train_MultiOmicsData_template.yaml)                   | [config_prediction_multiOmic](./examples/config_templates/config_prediction_multiOmic_template.yaml) |
 | Fine-tune using pretrained model   | [FinetuneData_random_context](./tutorials/FinetuneData_random_context.ipynb)                | [config_Finetune_MultiOmicsData](./examples/config_templates/config_Finetune_MultiOmicsData_template.yaml)             | [config_Prediction](./examples/config_templates/config_Prediction_template.yaml) |
 
+In addition to the testing data, we also provide ***full-size datasets*** and [config template files](./tutorials/yaml/) according to the training/prediction purposes.
+
+| Study                          | Tutorial                                 | Training/Finetune Config Template                                                                                                     | Prediction Config Template                                                                 |
+|--------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Modeling of mouse eye cell types using gene list context | [TrainData_GSE135167_mouse_eye_genelist](./tutorials/TrainData_GSE135167_mouse_eye_genelist.ipynb)                                  | [config_Train_genelist](./tutorials/yaml/config_genelist_GSE135167_mouse_eye.yaml)                   | [config_Prediction](./tutorials/yaml/config_prediction_GSE135167_mouse_eye.yaml) |
+| Modeling of myeloma myeloid cell types using genomic context | [TrainData_GSE154763_MYE_genomic_context](./tutorials/TrainData_GSE154763_MYE_genomic_context.ipynb)                                | [config_Train_genomic_context](./tutorials/yaml/config_genomic_context_GSE154763_MYE.yaml) | [config_Prediction](./tutorials/yaml/config_prediction_GSE154763_MYE.yaml) |
+| Modeling of AML cell types and cell status using biofunction context      | [TrainData_AML_biofounction_context](./tutorials/TrainData_AML_biofounction_context.ipynb)                                          | [config_Train_biofounction_context](./tutorials/yaml/config_biofounction_context_AML.yaml)     | [config_Prediction](./tutorials/yaml/config_prediction_AML.yaml) |
+| Modeling of PBMC CITE-Seq using multiomics mode                           | [TrainData_pbmc_citeseq_MultiOmics](./tutorials/TrainData_pbmc_citeseq_MultiOmics.ipynb)                                            | [config_Train_MultiOmicsData](./tutorials/yaml/config_MultiOmicsData_pbmc_citeseq.yaml)             | [config_prediction_multiOmic](./tutorials/yaml/config_prediction_pbmc_citeseq.yaml) |
+| Fine-tune of bone marrow cell types                                       | [FinetuneData_GSE135194BW_random_context](./tutorials/FinetuneData_GSE135194BW_random_context.ipynb)                                | [config_Finetune_MultiOmicsData](./tutorials/yaml/config_Finetune_GSE135194BW_random_context.yaml)       | [config_Prediction](./tutorials/yaml/config_prediction_GSE135194BW_random_context.yaml) |
 
 
 ### Option 2. Use scGenAI through Command Line Interface
