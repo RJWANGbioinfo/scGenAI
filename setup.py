@@ -19,7 +19,7 @@ requirements = parse_requirements('requirements.txt')
 
 setup(
     name="scGenAI",  
-    version="0.1.0",  
+    version="1.0.0",  
     author="Ruijia Wang",  
     author_email="help.qbio@vorbio.com",  
     description="A package for single-cell gene NGS data prediction analysis with large language models (LLMs)",  # Short description
