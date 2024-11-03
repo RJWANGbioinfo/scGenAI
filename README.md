@@ -116,7 +116,7 @@ _________
 
 Please see the full [documentation](./doc/index.md) for the details usage of **scGenAI**.
 
-- [Input Files and parameters](input.md)
+- [Input Files and parameters](./doc/input.md)
 - [Configuration](./doc/configuration.md)
 - [Run scGenAI](./doc/usage.md)
 - [Output Files](./doc/output.md)
