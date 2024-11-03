@@ -80,7 +80,7 @@ As a quick start, we highly recommend users to begin with the following [tutoria
 | Modeling using multiomics data    | [TrainData_Tutorial](./tutorials/TrainData_MultiOmics.ipynb)                             | [config_Train](./examples/config_templates/config_Train_MultiOmicsData_template.yaml)                   | [config_Prediction](./examples/config_templates/config_prediction_multiOmic_template.yaml) |
 | Fine-tune using pretrained model   | [FinetuneData_Tutorial](./tutorials/FinetuneData_random_context.ipynb)                | [config_Train](./examples/config_templates/config_Finetune_MultiOmicsData_template.yaml)             | [config_Prediction](./examples/config_templates/config_Prediction_template.yaml) |
 
-In addition to the testing data, we also provide ***full-size datasets*** and [config template files](./tutorials/yaml/) according to the training/prediction purposes.
+In addition to the testing data, we also provide ***full-size datasets*** and [config files](./tutorials/yaml/) according to the training/prediction purposes.
 
 | Study                                                          | Tutorial                                 | Training/Finetune Config                                                                                                     | Prediction Config                                                                 |
 |----------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
