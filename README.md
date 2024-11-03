@@ -7,7 +7,7 @@
 ##### Version: 1.0.0
 
 <p align="center">
-  <img src="img/logoedge.png" alt="scGenAI Logo" />
+  <img src="img/log2.png" alt="scGenAI Logo" />
 </p>
 
 ## About scGenAI
