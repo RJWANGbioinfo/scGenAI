@@ -121,9 +121,10 @@ Please see the full [documentation](./doc/index.md) for the details usage of **s
 - [Run scGenAI](./doc/usage.md)
 - [Output Files](./doc/output.md)
 
-## V. License
+## V. License Agreement
 
 _________
 
 
-**scGenAI** is licensed under a custom license for **non-commercial use only**. It is available for individuals, universities, non-profit organizations, educational and government bodies for non-commercial research or journalistic purposes.
+The use of **scGenAI** is governed by a custom license permitting **non-commercial use only** [LICENSE](./LICENSE). This package is freely available to individuals, universities, non-profit organizations, educational institutions, and government entities for non-commercial research or journalistic purposes.
+By cloning or downloading this repository, the user acknowledge that the user has **read, understood, and agree** to abide by the terms outlined in the [LICENSE](./LICENSE) file.
