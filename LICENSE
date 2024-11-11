@@ -1,44 +1,48 @@
-LICENSE FOR SCGENAI
+scGenAI END USER LICENSE AGREEMENT
+(For Academic Use Only)
 
-VERSION 1.0.0
+The scGenAI Software is made available for free to academic researchers under this limited license for non-commercial use.
 
-This license governs the use of the SCGENAI software package (hereinafter referred to as the Software).
-By using this Software, you agree to be bound by the terms and conditions described below.
+IMPORTANT: If you plan to use the scGenAI Software for-profit, you will need to purchase a commercial license . Please contact help.qbio@vorbio.com for more information.
 
+BEFORE PROCEEDING, PLEASE READ THE END USER LICENSE AGREEMENT BELOW.  
 
-PERMITTED USES
+BY USING THIS SCGENAI SOFTWARE YOU ATTEST TO (I) BEING AN ACADEMIC RESEARCHER, (II) USING IT SOLELY FOR PERMITTED ACADEMIC PURPOSES (AS DEFINED BELOW) AND (III) YOUR ACCEPTANCE OF THE END USER LICENSE AGREEMENT.
 
-The Software is ONLY AVAILABLE FOR NON-COMMERCIAL USE by:
+1.   As used herein, the term “you” or “your” or “Licensee” means any individual or entity accessing this site or using the software tool “scGenAI” (the “scGenAI Software”) pursuant to this End User License Agreement (“EULA”) from Vor Biopharma Inc. (“Vor”).
 
-  - Individuals.
-  - Non-commercial organizations, including but not limited to:
-      - Universities.
-      - Non-profit organizations and research institutes.
-      - Educational bodies.
-      - Government agencies.
-      - Journalists, in the course of their professional duties.
+2.  The scGenAI Software is free for your use subject to the terms and conditions set forth below. Vor reserves the right to change, from time to time and at its sole discretion, this EULA. Your continued use of the scGenAI Software after any such modification constitutes your agreement and acceptance of such changes.  By using the ScGenAI Software, you agree to allow Vor the right to collect data and statistics (i) on system usage patterns and (ii) to improve or modify the scGenAI Software. 
 
-The Software may be used for research, educational purposes, and journalism under these restrictions.
+3.   Licensee may use the scGenAI Software for academic research, educational purposes, or professional journalism (the “Permitted Academic Purpose”).
 
+4.  Vor hereby grants to Licensee a non-exclusive, nontransferable, nonassignable, non-sublicenseable, royalty-free license to the scGenAI Software under the terms and conditions of this EULA solely for the Permitted Academic Purpose. Under no circumstances may Licensee use the scGenAI Software for any other purpose, including without limitation (a) any commercial purpose, including research conducted on behalf of any commercial organization, (b) use in any automated system for analyzing single-cell data and (c) train machine learning models or related technology for the analysis of single-cell data, without the prior written consent of Vor.
 
-RESTRICTED USES
+5.   Vor owns all right, title, and interest in the scGenAI Software, or has acquired legally valid rights therein. It is understood that Licensee may be required to obtain licenses from third parties in order to use the scGenAI Software.
 
-The following uses of the Software are STRICTLY PROHIBITED without prior written consent from Vor's Computational Biology Team at Vor Biopharma:
+6.    Licensee may not copy or make any modification of the scGenAI Software. Licensee shall not distribute the scGenAI Software to any third party. Licensee shall limit the scGenAI Software to internal use by Licensee’s employees and students who require access for purposes of Licensee’s research utilizing the scGenAI Software in accordance with this EULA, and shall not allow others to use, duplicate, or obtain copies of the scGenAI Software.
 
-  - COMMERCIAL ACTIVITIES: Any use of the Software in connection with commercial activities,
-    including research conducted on behalf of commercial organizations, is prohibited.
-  - AUTOMATED SYSTEMS: The Software may not be used in any automated system for analyzing single-cell data.
-  - MACHINE LEARNING MODELS: The Software may not be used to train machine learning models or related technology
-    for the analysis of single-cell data.
+7.  Licensee acknowledges that it may be required to obtain and maintain licenses to any open source programs incorporated in or utilized by the scGenAI Software. If Licensee uses the Software in conjunction with any open source programs, Licensee must ensure such use does not (a) grant, or purport to grant, any rights to Vor’s intellectual property rights in the scGenAI Software; (b) in any way restrict, or purport to restrict, Vor’s abilities to protect its intellectual property rights in the scGenAI Software; or (c) create, or purport to create, any obligations by Vor with respect to the scGenAI Software.
 
+8.   Licensee accepts the scGenAI Software on an “AS IS” basis. Licensee understands that the scGenAI Software is an experimental program subject to further development and revision, and therefore may not operate as intended in all situations. Accordingly, Vor does not guarantee the accuracy of the scGenAI Software, and assumes no obligation to notify Licensee of any fixes or enhancements that may be made in the future. 
 
-CONTACT FOR RESTRICTED USAGE
+9.  Vor shall have no obligation to provide any services, maintenance, corrections, debugging, improvements, or updates, or otherwise assist in the understanding or use of the scGenAI Software.
 
-For any of the restricted uses mentioned above, written consent must be obtained by contacting Vor's Computational Biology Team via the following email:
+10.  Licensee acknowledges that Licensee shall have responsibility to load the scGenAI Software onto Licensee’s hardware and test for proper operation. Licensee assumes the entire risk as to the quality, results, performance, and/or non-performance of the scGenAI Software. Licensee shall have the sole responsibility to adequately protect and back up Licensee’s data or equipment used in connection with the scGenAI Software.
 
-  - help.qbio@vorbio.com
+11.   The use of the scGenAI Software is restricted to uses in strict accordance with this EULA. Licensee shall not use the scGenAI Software for any other purpose (including but not limited to modifying, reverse engineering, decompiling, reverse compiling, disassembling, or otherwise attempting to learn the source code of the scGenAI Software), except and only to the extent that applicable law expressly permits.
 
+12.   In no event shall Vor (including its officers, employees, agents, and licensors) be responsible or liable for any indirect, consequential, incidental, special, punitive, or other damages whatsoever (including lost profits, business, revenue, use, data, or other economic advantage) in connection with, arising out of, or related to this EULA, regardless of the theory of liability, whether for breach or in tort (including negligence), even if Vor may have been previously advised of the possibility of such damage.
 
-LIABILITY
+13.   VOR DISCLAIMS ANY AND ALL REPRESENTATIONS AND WARRANTIES OF ANY KIND OR NATURE, WHETHER EXPRESS OR IMPLIED, REGARDING THE SCGENAI SOFTWARE, INCLUDING BUT NOT LIMITED TO REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE SCGENAI SOFTWARE DOES NOT OR WILL NOT INFRINGE ANY PATENTS, COPYRIGHTS, TRADEMARKS, OR OTHER RIGHTS OF THIRD PARTIES.
 
-The Software is provided "as-is," and the authors make no warranties or representations regarding its functionality or fitness for any particular purpose.
+14.  IN NO EVENT WILL VOR BE LIABLE FOR ANY LOSS OF PROFITS, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND IN CONNECTION WITH OR ARISING OUT OF THE FURNISHING, PERFORMANCE OR SCGENAI SOFTWARE. VOR’S MAXIMUM AGGREGATE LIABILITY (WHETHER IN CONTRACT OR IN TORT OR UNDER ANY OTHER FORM OF LIABILITY) FOR DAMAGES OR LOSS, HOWSOEVER ARISING OR CAUSED, WHETHER OR NOT ARISING FROM VOR’S NEGLIGENCE, SHALL IN NO EVENT BE GREATER THAN THE LICENSEE FEE(S) ACTUALLY PAID BY LICENSEE.
+
+15.  Neither party shall use the name, seal, logo, trademark, or service mark of the other or any of its affiliates, or any adaptation thereof, without prior written consent obtained from the other party. 
+
+16.   You agree to defend, indemnify and hold harmless Vor and its affiliates, trustees, officers, employees, staff members, agents or contractors from and against any claim, charge, demand, action or suit, whether in contract, tort, strict liability, negligence or otherwise, for any and all losses, costs, charges, claims, demands, fees, expenses or damages of any nature or kind arising out of, connected with or resulting from (i) the use of the scGenAI Software by you, your affiliates, employees, staff, faculty, students, agents or (ii) relating in any way to this EULA.  In consideration of Vor providing access to the scGenAI Software free of charge, you agree not to bring any claim, lawsuit, or action (“Claim”) for any damages, costs, liabilities, settlement amounts and/or expenses (including attorneys’ fees) against Vor or its affiliates, trustees, officers, employees, staff members, agents or contractors arising out of or related to your use of the scGenAI Software.
+
+17.   Vor may terminate your access to and use of the scGenAI Software at any time, with or without notice, for any reason or for no reason at all.
+
+18.   This EULA shall be governed by and construed in accordance with the laws of the Commonwealth of Massachusetts (without regard to the principles of conflicts of laws).
+
+19.  This EULA sets forth all of the covenants, provisions, agreements, conditions, and understandings between the parties regarding the subject matter herein, and there are no covenants, promises, agreements, conditions, or understandings, either oral or written, between them other than those set forth herein.
