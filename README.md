@@ -43,7 +43,7 @@ To install the package, use the following steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://bitbucket.org/vor-compbio/scgenai.git
+    git clone https://github.com/VOR-Quantitative-Biology/scGenAI.git
     ```
 
 2. **Navigate to the project directory:**
