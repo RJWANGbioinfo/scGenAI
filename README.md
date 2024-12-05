@@ -49,7 +49,7 @@ To install the package, use the following steps:
 2. **Navigate to the project directory:**
 
     ```bash
-    cd scgenai
+    cd scGenAI
     ```
 	
 
