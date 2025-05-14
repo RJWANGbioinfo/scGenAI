@@ -11,9 +11,15 @@
 </p>
 
 ## About scGenAI
+
+[![](https://img.shields.io/badge/doi-10.1101/bioinformatics/btaa266-green.svg)](https://doi.org/10.1101/2025.05.07.652733)
 _________
 
+
 **scGenAI** is a Python package for single-cell RNA sequencing (scRNA-seq) data prediction and analysis using large language models (LLMs). The package allows users to train, fine-tune, and make predictions on single-cell data using transformer-based models, including custom versions of LLaMA, GPT, BigBird, and scGenT. It provides multi-GPU support with PyTorch DistributedDataParallel (DDP).
+<p align="center">
+  <img src="img/Fig1A.jpg" alt="scGenAI Workflow" />
+</p>
 
 
 ## Table of Contents
@@ -120,6 +126,13 @@ Please see the full [documentation](./doc/index.md) for the details usage of **s
 - [Configuration](./doc/configuration.md)
 - [Run scGenAI](./doc/usage.md)
 - [Output Files](./doc/output.md)
+
+
+## IV. Citation
+This project is based on methods described by Wang et al. (2025):
+
+[1] Wang, R., Ung, M., & Ge, H. G. (2025). *scGenAI: A generative AI platform with biological context embedding of multimodal features enhances single cell state classification*. bioRxiv. https://doi.org/10.1101/2025.05.07.652733
+
 
 ## V. License Agreement
 
