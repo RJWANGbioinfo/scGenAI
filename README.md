@@ -12,7 +12,7 @@
 
 ## About scGenAI
 
-[![](https://img.shields.io/badge/doi-10.1101/bioinformatics/btaa266-green.svg)](https://doi.org/10.1101/2025.05.07.652733)
+[![](https://img.shields.io/badge/doi-10.1101/biorxiv/2025.05.07.652733-green.svg)](https://doi.org/10.1101/2025.05.07.652733)
 _________
 
 
